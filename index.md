@@ -28,11 +28,12 @@ Syntax highlighted code block
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-    function fancyAlert(arg) {
-      if(arg) {
-        $.facebox({div:'#foo'})
-      }
-    }
+```javascript
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
 
 ### Jekyll Themes
 
